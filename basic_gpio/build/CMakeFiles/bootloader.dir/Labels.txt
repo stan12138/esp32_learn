@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/CMakeFiles/bootloader
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/CMakeFiles/bootloader.rule
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/CMakeFiles/bootloader-complete.rule
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
