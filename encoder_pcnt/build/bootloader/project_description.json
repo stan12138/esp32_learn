@@ -1,0 +1,26 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/encoder_pcnt/build/bootloader",
+    "config_file":        "/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/encoder_pcnt/sdkconfig",
+    "config_defaults":    "",
+    "bootloader_elf":     "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "build_type":         "flash_app",
+    "git_revision":       "v5.1-dev-4124-gbb9200acec",
+    "target":             "esp32",
+    "rev":                "0",
+    "min_rev":            "0",
+    "max_rev":            "399",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/efuse/Kconfig;/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_common/Kconfig;/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_hw_support/Kconfig;/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_system/Kconfig;/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/freertos/Kconfig;/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/hal/Kconfig;/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/log/Kconfig;/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/newlib/Kconfig;/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/soc/Kconfig;/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/bootloader/Kconfig.projbuild;/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_app_format/Kconfig.projbuild;/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_rom/Kconfig.projbuild;/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp_app_format", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/bootloader", "/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/bootloader_support", "/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/efuse", "/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_app_format", "/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_common", "/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_hw_support", "/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_rom", "/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_system", "/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esptool_py", "/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/freertos", "/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/hal", "/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/log", "/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/bootloader/subproject/main", "/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/newlib", "/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/partition_table", "/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/soc", "/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/spi_flash", "/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/xtensa", "" ],
+    "debug_prefix_map_gdbinit": ""
+}

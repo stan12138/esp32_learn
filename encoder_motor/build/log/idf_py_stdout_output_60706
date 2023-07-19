@@ -1,0 +1,64 @@
+[1/58] Performing build step for 'bootloader'
+[1/1] cd /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/encoder_motor/build/bootloader/esp-idf/esptool_py && /Users/hanyi02/.espressif/python_env/idf5.1_py3.9_env/bin/python /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/encoder_motor/build/bootloader/bootloader.bin
+Bootloader binary size 0x6790 bytes. 0x870 bytes (8%) free.
+[2/56] Building ASM object esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/__/__/x509_crt_bundle.S.obj
+[3/56] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_binary.c.obj
+[4/56] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/port/xtensa/core_dump_port.c.obj
+[5/56] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_cache.c.obj
+[6/56] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs_api.c.obj
+[7/56] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_elf.c.obj
+[8/56] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_uart.c.obj
+[9/56] Building C object esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/esp_crt_bundle/esp_crt_bundle.c.obj
+[10/56] Linking C static library esp-idf/mbedtls/libmbedtls.a
+[11/56] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/adc_i2s_deprecated.c.obj
+[12/56] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_ctrl.c.obj
+[13/56] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_config.c.obj
+[14/56] Linking C static library esp-idf/esp_pm/libesp_pm.a
+[15/56] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_gc.c.obj
+[16/56] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_scan.c.obj
+[17/56] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_check.c.obj
+[18/56] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_config.pb-c.c.obj
+[19/56] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_console.c.obj
+[20/56] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_constants.pb-c.c.obj
+[21/56] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_ctrl.pb-c.c.obj
+[22/56] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_scan.pb-c.c.obj
+[23/56] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_hydrogen.c.obj
+[24/56] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/esp_spiffs.c.obj
+[25/56] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_softap.c.obj
+[26/56] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/encoder_motor.c.obj
+[27/56] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_nucleus.c.obj
+[28/56] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/manager.c.obj
+[29/56] Linking C static library esp-idf/driver/libdriver.a
+[30/56] Linking C static library esp-idf/efuse/libefuse.a
+[31/56] Linking C static library esp-idf/esp_ringbuf/libesp_ringbuf.a
+[32/56] Linking C static library esp-idf/xtensa/libxtensa.a
+[33/56] Linking C static library esp-idf/perfmon/libperfmon.a
+[34/56] Linking C static library esp-idf/esp_hid/libesp_hid.a
+[35/56] Linking C static library esp-idf/espcoredump/libespcoredump.a
+[36/56] Linking C static library esp-idf/protobuf-c/libprotobuf-c.a
+[37/56] Linking C static library esp-idf/json/libjson.a
+[38/56] Linking C static library esp-idf/mqtt/libmqtt.a
+[39/56] Linking C static library esp-idf/wear_levelling/libwear_levelling.a
+[40/56] Linking C static library esp-idf/sdmmc/libsdmmc.a
+[41/56] Linking C static library esp-idf/esp_lcd/libesp_lcd.a
+[42/56] Linking C static library esp-idf/app_trace/libapp_trace.a
+[43/56] Linking C static library esp-idf/console/libconsole.a
+[44/56] Linking C static library esp-idf/unity/libunity.a
+[45/56] Linking C static library esp-idf/spiffs/libspiffs.a
+[46/56] Linking C static library esp-idf/cmock/libcmock.a
+[47/56] Linking C static library esp-idf/fatfs/libfatfs.a
+[48/56] Linking C static library esp-idf/protocomm/libprotocomm.a
+[49/56] Linking C static library esp-idf/esp_local_ctrl/libesp_local_ctrl.a
+[50/56] Linking C static library esp-idf/wifi_provisioning/libwifi_provisioning.a
+[51/56] Linking C static library esp-idf/main/libmain.a
+[52/56] Generating ld/sections.ld
+[53/56] Building C object CMakeFiles/encoder_motor.elf.dir/project_elf_src_esp32.c.obj
+[54/56] Linking CXX executable encoder_motor.elf
+[55/56] Generating binary image from built executable
+esptool.py v4.5.1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/encoder_motor/build/encoder_motor.bin
+[56/56] cd /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/encoder_motor/build/esp-idf/esptool_py && /Users/hanyi02/.espressif/python_env/idf5.1_py3.9_env/bin/python /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/encoder_motor/build/partition_table/partition-table.bin /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/encoder_motor/build/encoder_motor.bin
+encoder_motor.bin binary size 0x2ed40 bytes. Smallest app partition is 0x100000 bytes. 0xd12c0 bytes (82%) free.
