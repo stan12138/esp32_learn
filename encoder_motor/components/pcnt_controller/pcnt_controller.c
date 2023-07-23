@@ -8,12 +8,14 @@
 #define EC11_GPIO_B 2
 
 void _init_one_group_pcnt(pcnt_unit_handle_t *unit, hall_encoder encoder, QueueHandle_t *queue) {
+    // 脉冲计数器中的数值有上下限
     pcnt_unit_config_t unit_config = {
         .high_limit = PCNT_HIGH_LIMIT,
         .low_limit = PCNT_LOW_LIMIT,
     };
-    pcnt_new_unit(&unit_config, &unit);
+    pcnt_new_unit(&unit_config, unit);
 
+    // 脉冲计数器可以过滤毛刺信号
     pcnt_glitch_filter_config_t filter_config = {
         .max_glitch_ns = PCNT_MIN_WIDTH_NS,
     };

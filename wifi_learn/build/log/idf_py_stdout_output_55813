@@ -1,0 +1,52 @@
+[1/12] cd /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/build/esp-idf/main && /Users/hanyi02/.espressif/python_env/idf5.1_py3.9_env/bin/python /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/spiffs/spiffsgen.py 0xf0000 /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/front /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/build/www.bin --page-size=256 --obj-name-len=32 --meta-len=4 --use-magic --use-magic-len
+[2/12] Performing build step for 'bootloader'
+[1/1] cd /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/build/bootloader/esp-idf/esptool_py && /Users/hanyi02/.espressif/python_env/idf5.1_py3.9_env/bin/python /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/build/bootloader/bootloader.bin
+Bootloader binary size 0x6790 bytes. 0x870 bytes (8%) free.
+[3/10] Building C object esp-idf/simple_server/CMakeFiles/__idf_simple_server.dir/simple_server.c.obj
+FAILED: esp-idf/simple_server/CMakeFiles/__idf_simple_server.dir/simple_server.c.obj 
+/Users/hanyi02/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -DESP_PLATFORM -DIDF_VER=\"v5.1-dev-4124-gbb9200acec\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/build/config -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/components/simple_server/include -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/newlib/platform_include -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/freertos/esp_additions/include -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_hw_support/include -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_hw_support/include/soc -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/heap/include -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/log/include -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/soc/include -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/soc/esp32 -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/soc/esp32/include -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/hal/esp32/include -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/hal/include -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/hal/platform_port/include -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_rom/include -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_rom/include/esp32 -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_rom/esp32 -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_common/include -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_system/include -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_system/port/soc -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_system/port/include/private -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/xtensa/include -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/xtensa/esp32/include -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/lwip/include -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/lwip/include/apps -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/lwip/include/apps/sntp -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/lwip/lwip/src/include -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/lwip/port/include -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/lwip/port/freertos/include -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/lwip/port/esp32xx/include -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/lwip/port/esp32xx/include/arch -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_http_server/include -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_event/include -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/http_parser -I/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/vfs/include -mlongcalls -Wno-frame-address  -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn=. -fmacro-prefix-map=/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -MD -MT esp-idf/simple_server/CMakeFiles/__idf_simple_server.dir/simple_server.c.obj -MF esp-idf/simple_server/CMakeFiles/__idf_simple_server.dir/simple_server.c.obj.d -o esp-idf/simple_server/CMakeFiles/__idf_simple_server.dir/simple_server.c.obj -c /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/components/simple_server/simple_server.c
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/components/simple_server/simple_server.c: In function '__init_fs':
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/components/simple_server/simple_server.c:5:5: error: unknown type name 'esp_vfs_spiffs_conf_t'
+    5 |     esp_vfs_spiffs_conf_t conf = {
+      |     ^~~~~~~~~~~~~~~~~~~~~
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/components/simple_server/simple_server.c:6:9: error: field name not in record or union initializer
+    6 |         .base_path = "www",
+      |         ^
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/components/simple_server/simple_server.c:6:9: note: (near initialization for 'conf')
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/components/simple_server/simple_server.c:6:22: warning: initialization of 'int' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+    6 |         .base_path = "www",
+      |                      ^~~~~
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/components/simple_server/simple_server.c:6:22: note: (near initialization for 'conf')
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/components/simple_server/simple_server.c:7:9: error: field name not in record or union initializer
+    7 |         .partition_label = NULL,
+      |         ^
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/components/simple_server/simple_server.c:7:9: note: (near initialization for 'conf')
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/components/simple_server/simple_server.c:7:28: warning: excess elements in scalar initializer
+    7 |         .partition_label = NULL,
+      |                            ^~~~
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/components/simple_server/simple_server.c:7:28: note: (near initialization for 'conf')
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/components/simple_server/simple_server.c:8:9: error: field name not in record or union initializer
+    8 |         .max_files = 5,
+      |         ^
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/components/simple_server/simple_server.c:8:9: note: (near initialization for 'conf')
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/components/simple_server/simple_server.c:8:22: warning: excess elements in scalar initializer
+    8 |         .max_files = 5,
+      |                      ^
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/components/simple_server/simple_server.c:8:22: note: (near initialization for 'conf')
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/components/simple_server/simple_server.c:9:9: error: field name not in record or union initializer
+    9 |         .format_if_mount_failed = false
+      |         ^
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/components/simple_server/simple_server.c:9:9: note: (near initialization for 'conf')
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/components/simple_server/simple_server.c:9:35: warning: excess elements in scalar initializer
+    9 |         .format_if_mount_failed = false
+      |                                   ^~~~~
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/components/simple_server/simple_server.c:9:35: note: (near initialization for 'conf')
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/components/simple_server/simple_server.c:11:21: error: implicit declaration of function 'esp_vfs_spiffs_register'; did you mean 'esp_vfs_unregister'? [-Werror=implicit-function-declaration]
+   11 |     esp_err_t ret = esp_vfs_spiffs_register(&conf);
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~
+      |                     esp_vfs_unregister
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/components/simple_server/simple_server.c:25:11: error: implicit declaration of function 'esp_spiffs_info' [-Werror=implicit-function-declaration]
+   25 |     ret = esp_spiffs_info(NULL, &total, &used);
+      |           ^~~~~~~~~~~~~~~
+cc1: some warnings being treated as errors
+ninja: build stopped: subcommand failed.

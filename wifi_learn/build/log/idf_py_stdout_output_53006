@@ -1,0 +1,92 @@
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/sdkconfig
+-- App "wifi_learn" version: 0f3d962-dirty
+-- Adding linker script /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc simple_server soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_connect wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/app_trace /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/app_update /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/bootloader /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/bootloader_support /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/bt /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/cmock /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/console /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/cxx /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/driver /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/efuse /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp-tls /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_adc /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_app_format /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_coex /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_common /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_eth /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_event /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_gdbstub /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_hid /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_http_client /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_http_server /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_https_ota /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_https_server /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_hw_support /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_lcd /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_local_ctrl /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_mm /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_netif /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_netif_stack /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_partition /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_phy /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_pm /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_psram /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_ringbuf /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_rom /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_system /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_timer /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esp_wifi /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/espcoredump /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esptool_py /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/fatfs /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/freertos /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/hal /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/heap /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/http_parser /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/idf_test /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/ieee802154 /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/json /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/log /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/lwip /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/main /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/mbedtls /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/mqtt /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/newlib /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/nvs_flash /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/openthread /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/partition_table /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/perfmon /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/protobuf-c /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/protocomm /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/pthread /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/sdmmc /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/components/simple_server /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/soc /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/spi_flash /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/spiffs /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/tcp_transport /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/ulp /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/unity /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/usb /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/vfs /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/wear_levelling /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/components/wifi_connect /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/wifi_provisioning /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/wpa_supplicant /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/build
+[1/6] cd /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/build/esp-idf/esptool_py && /Users/hanyi02/.espressif/python_env/idf5.1_py3.9_env/bin/python /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/build/partition_table/partition-table.bin /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/build/wifi_learn.bin
+wifi_learn.bin binary size 0xb98e0 bytes. Smallest app partition is 0x100000 bytes. 0x46720 bytes (28%) free.
+[2/6] cd /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/build/esp-idf/main && /Users/hanyi02/.espressif/python_env/idf5.1_py3.9_env/bin/python /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/spiffs/spiffsgen.py 0xf0000 /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/front /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/build/www.bin --page-size=256 --obj-name-len=32 --meta-len=4 --use-magic --use-magic-len
+[3/6] Performing build step for 'bootloader'
+[1/1] cd /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/build/bootloader/esp-idf/esptool_py && /Users/hanyi02/.espressif/python_env/idf5.1_py3.9_env/bin/python /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/build/bootloader/bootloader.bin
+Bootloader binary size 0x6790 bytes. 0x870 bytes (8%) free.
+[3/4] cd /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esptool_py && /usr/local/Cellar/cmake/3.21.3_1/bin/cmake -D IDF_PATH=/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf -D "SERIAL_TOOL=/Users/hanyi02/.espressif/python_env/idf5.1_py3.9_env/bin/python;;/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_learn/build -P /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool esp32 -p /dev/cu.wchusbserial14210 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 wifi_learn.bin 0x8000 partition_table/partition-table.bin 0x110000 www.bin
+esptool.py v4.5.1
+Serial port /dev/cu.wchusbserial14210
+Connecting....
+Chip is ESP32-D0WD-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: c8:f0:9e:52:08:30
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x000c9fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Flash will be erased from 0x00110000 to 0x001fffff...
+Compressed 26512 bytes to 16586...
+Writing at 0x00001000... (50 %)
+Writing at 0x0000767a... (100 %)
+Wrote 26512 bytes (16586 compressed) at 0x00001000 in 0.8 seconds (effective 278.7 kbit/s)...
+Hash of data verified.
+Compressed 760032 bytes to 487077...
+Writing at 0x00010000... (3 %)
+Writing at 0x0001b1d2... (6 %)
+Writing at 0x00026a3e... (10 %)
+Writing at 0x0002ba42... (13 %)
+Writing at 0x00034bf9... (16 %)
+Writing at 0x0003a680... (20 %)
+Writing at 0x000400b8... (23 %)
+Writing at 0x000458b2... (26 %)
+Writing at 0x0004b1b5... (30 %)
+Writing at 0x00050e0a... (33 %)
+Writing at 0x0005694f... (36 %)
+Writing at 0x0005bd8b... (40 %)
+Writing at 0x0006125c... (43 %)
+Writing at 0x00066859... (46 %)
+Writing at 0x0006bbe1... (50 %)
+Writing at 0x000713db... (53 %)
+Writing at 0x00076c12... (56 %)
+Writing at 0x0007cb26... (60 %)
+Writing at 0x00082092... (63 %)
+Writing at 0x00087837... (66 %)
+Writing at 0x0008d04d... (70 %)
+Writing at 0x00092827... (73 %)
+Writing at 0x00097fce... (76 %)
+Writing at 0x0009da2b... (80 %)
+Writing at 0x000a3d16... (83 %)
+Writing at 0x000a97c9... (86 %)
+Writing at 0x000b1e00... (90 %)
+Writing at 0x000ba30a... (93 %)
+Writing at 0x000c019d... (96 %)
+Writing at 0x000c5766... (100 %)
+Wrote 760032 bytes (487077 compressed) at 0x00010000 in 11.7 seconds (effective 517.5 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 116...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (116 compressed) at 0x00008000 in 0.1 seconds (effective 251.6 kbit/s)...
+Hash of data verified.
+Compressed 983040 bytes to 2066...
+Writing at 0x00110000... (100 %)
+Wrote 983040 bytes (2066 compressed) at 0x00110000 in 5.6 seconds (effective 1403.6 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

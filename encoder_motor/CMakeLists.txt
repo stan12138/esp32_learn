@@ -9,6 +9,7 @@ list(APPEND EXTRA_COMPONENT_DIRS
                                 "components/uart_sender" 
                                 "components/pwm_controller" 
                                 "components/timer_controller" 
+                                "components/PID_controller"
                                 )
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 project(encoder_motor)

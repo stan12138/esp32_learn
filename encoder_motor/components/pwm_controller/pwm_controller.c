@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include "pwm_controller.h"
 
+/*
+    初始化一个mcpwm控制器
+*/
 void __pwm_init_one(PWMCONTOL *controller) {
     mcpwm_timer_config_t timer_config = {
         .group_id = PWM_GROUP_ID,
@@ -41,12 +44,25 @@ void __pwm_init_one(PWMCONTOL *controller) {
     mcpwm_timer_start_stop(controller->timer, MCPWM_TIMER_START_NO_STOP);
 }
 
+/*
+    初始化多个mcpwm控制器
+*/
 void pwm_init(PWMGROUP *group) {
     for(int index=0;index<group->nums;index++) {
         __pwm_init_one(&group->controllers[index]);
     }
 }
 
+/*
+    设定pwm的占空比
+*/
 void pwm_update(PWMGROUP *group, int index, float value) {
+    // printf("value: %f\n", value);
+    if(value>1) {
+        value = 1;
+    }
+    if(value < 0) {
+        value = 0;
+    }
     mcpwm_comparator_set_compare_value(group->controllers[index].comparator, __value2tick(value));
 }
