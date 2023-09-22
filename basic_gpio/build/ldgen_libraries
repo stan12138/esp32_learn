@@ -58,6 +58,8 @@
 /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/esp-idf/mqtt/libmqtt.a
 /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/esp-idf/perfmon/libperfmon.a
 /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/esp-idf/spiffs/libspiffs.a
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/esp-idf/touch_element/libtouch_element.a
 /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/esp-idf/ulp/libulp.a
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/esp-idf/usb/libusb.a
 /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
 /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/esp-idf/main/libmain.a

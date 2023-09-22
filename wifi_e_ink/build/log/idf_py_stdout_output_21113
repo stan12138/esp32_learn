@@ -1,0 +1,82 @@
+[1/12] Performing build step for 'bootloader'
+[1/1] cd /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_e_ink/build/bootloader/esp-idf/esptool_py && /Users/hanyi02/.espressif/python_env/idf5.1_py3.9_env/bin/python /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_e_ink/build/bootloader/bootloader.bin
+Bootloader binary size 0x6790 bytes. 0x870 bytes (8%) free.
+[2/10] Building C object esp-idf/eink_graphic/CMakeFiles/__idf_eink_graphic.dir/eink_graphic.c.obj
+[3/10] Linking C static library esp-idf/eink_graphic/libeink_graphic.a
+[4/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/wifi_e_ink.c.obj
+[5/10] Linking C static library esp-idf/main/libmain.a
+[6/10] Generating ld/sections.ld
+[7/10] Linking CXX executable wifi_e_ink.elf
+[8/10] Generating binary image from built executable
+esptool.py v4.5.1
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_e_ink/build/wifi_e_ink.bin
+[9/10] cd /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_e_ink/build/esp-idf/esptool_py && /Users/hanyi02/.espressif/python_env/idf5.1_py3.9_env/bin/python /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_e_ink/build/partition_table/partition-table.bin /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_e_ink/build/wifi_e_ink.bin
+wifi_e_ink.bin binary size 0xe5030 bytes. Smallest app partition is 0x200000 bytes. 0x11afd0 bytes (55%) free.
+[9/10] cd /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esptool_py && /usr/local/Cellar/cmake/3.21.3_1/bin/cmake -D IDF_PATH=/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf -D "SERIAL_TOOL=/Users/hanyi02/.espressif/python_env/idf5.1_py3.9_env/bin/python;;/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_e_ink/build -P /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool esp32 -p /dev/cu.wchusbserial14240 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader/bootloader.bin 0x10000 wifi_e_ink.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.5.1
+Serial port /dev/cu.wchusbserial14240
+Connecting....
+Chip is ESP32-D0WD-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: c8:f0:9e:52:08:30
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x000f5fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26512 bytes to 16585...
+Writing at 0x00001000... (50 %)
+Writing at 0x00007682... (100 %)
+Wrote 26512 bytes (16585 compressed) at 0x00001000 in 0.9 seconds (effective 248.7 kbit/s)...
+Hash of data verified.
+Compressed 938032 bytes to 519905...
+Writing at 0x00010000... (3 %)
+Writing at 0x0001c522... (6 %)
+Writing at 0x00027748... (9 %)
+Writing at 0x0002d918... (12 %)
+Writing at 0x000403f4... (15 %)
+Writing at 0x00045beb... (18 %)
+Writing at 0x0004b9b4... (21 %)
+Writing at 0x000514ab... (25 %)
+Writing at 0x00057217... (28 %)
+Writing at 0x0005cabf... (31 %)
+Writing at 0x00061d4b... (34 %)
+Writing at 0x0006741b... (37 %)
+Writing at 0x0006c732... (40 %)
+Writing at 0x00071f84... (43 %)
+Writing at 0x00077592... (46 %)
+Writing at 0x0007cc94... (50 %)
+Writing at 0x00082c7d... (53 %)
+Writing at 0x000881cc... (56 %)
+Writing at 0x0008db0b... (59 %)
+Writing at 0x000932cc... (62 %)
+Writing at 0x000989e4... (65 %)
+Writing at 0x0009e14a... (68 %)
+Writing at 0x000a3bb4... (71 %)
+Writing at 0x000a9dfc... (75 %)
+Writing at 0x000b0181... (78 %)
+Writing at 0x000b583e... (81 %)
+Writing at 0x000be23d... (84 %)
+Writing at 0x000c6831... (87 %)
+Writing at 0x000e0578... (90 %)
+Writing at 0x000e5ea7... (93 %)
+Writing at 0x000eb8da... (96 %)
+Writing at 0x000f0ef9... (100 %)
+Wrote 938032 bytes (519905 compressed) at 0x00010000 in 12.9 seconds (effective 580.9 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 104...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (104 compressed) at 0x00008000 in 0.1 seconds (effective 251.9 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

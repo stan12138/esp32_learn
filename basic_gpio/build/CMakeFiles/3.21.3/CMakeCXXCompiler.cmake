@@ -1,4 +1,4 @@
-set(CMAKE_CXX_COMPILER "/Users/hanyi02/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++")
+set(CMAKE_CXX_COMPILER "/Users/hanyi02/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-g++")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_COMPILER_VERSION "12.2.0")
@@ -21,11 +21,11 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "/Users/hanyi02/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar")
-set(CMAKE_CXX_COMPILER_AR "/Users/hanyi02/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc-ar")
-set(CMAKE_RANLIB "/Users/hanyi02/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib")
-set(CMAKE_CXX_COMPILER_RANLIB "/Users/hanyi02/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc-ranlib")
-set(CMAKE_LINKER "/Users/hanyi02/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-ld")
+set(CMAKE_AR "/Users/hanyi02/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-ar")
+set(CMAKE_CXX_COMPILER_AR "/Users/hanyi02/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc-ar")
+set(CMAKE_RANLIB "/Users/hanyi02/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-ranlib")
+set(CMAKE_CXX_COMPILER_RANLIB "/Users/hanyi02/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc-ranlib")
+set(CMAKE_LINKER "/Users/hanyi02/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-ld")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCXX 1)
 set(CMAKE_CXX_COMPILER_LOADED 1)
@@ -85,7 +85,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/Users/hanyi02/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/xtensa-esp32-elf/include/c++/12.2.0;/Users/hanyi02/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/xtensa-esp32-elf/include/c++/12.2.0/xtensa-esp32-elf;/Users/hanyi02/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/xtensa-esp32-elf/include/c++/12.2.0/backward;/Users/hanyi02/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/12.2.0/include;/Users/hanyi02/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/12.2.0/include-fixed;/Users/hanyi02/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/xtensa-esp32-elf/sys-include;/Users/hanyi02/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/xtensa-esp32-elf/include")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/Users/hanyi02/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include/c++/12.2.0;/Users/hanyi02/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include/c++/12.2.0/xtensa-esp32s3-elf;/Users/hanyi02/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include/c++/12.2.0/backward;/Users/hanyi02/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/12.2.0/include;/Users/hanyi02/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/12.2.0/include-fixed;/Users/hanyi02/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/xtensa-esp32s3-elf/sys-include;/Users/hanyi02/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;m;gcc;c;nosys;c;gcc")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/Users/hanyi02/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/12.2.0;/Users/hanyi02/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/lib/gcc;/Users/hanyi02/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/xtensa-esp32-elf/lib")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/Users/hanyi02/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/12.2.0;/Users/hanyi02/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/lib/gcc;/Users/hanyi02/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/xtensa-esp32s3-elf/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

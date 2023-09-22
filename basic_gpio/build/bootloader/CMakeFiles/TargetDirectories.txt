@@ -1,5 +1,8 @@
 /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/bootloader/CMakeFiles/edit_cache.dir
 /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/bootloader/CMakeFiles/uf2-app.dir
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/bootloader/CMakeFiles/dfu-flash.dir
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/bootloader/CMakeFiles/dfu-list.dir
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/bootloader/CMakeFiles/dfu.dir
 /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/bootloader/CMakeFiles/size-components.dir
 /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/bootloader/CMakeFiles/app.dir
 /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/bootloader/CMakeFiles/size-files.dir
@@ -55,8 +58,8 @@
 /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/bootloader/esp-idf/esp_hw_support/CMakeFiles/rebuild_cache.dir
 /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/bootloader/esp-idf/esp_hw_support/CMakeFiles/edit_cache.dir
 /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/bootloader/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir
-/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/bootloader/esp-idf/esp_hw_support/port/esp32/CMakeFiles/rebuild_cache.dir
-/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/bootloader/esp-idf/esp_hw_support/port/esp32/CMakeFiles/edit_cache.dir
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/bootloader/esp-idf/esp_hw_support/port/esp32s3/CMakeFiles/rebuild_cache.dir
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/bootloader/esp-idf/esp_hw_support/port/esp32s3/CMakeFiles/edit_cache.dir
 /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/bootloader/esp-idf/esp_common/CMakeFiles/rebuild_cache.dir
 /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/bootloader/esp-idf/esp_common/CMakeFiles/edit_cache.dir
 /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/basic_gpio/build/bootloader/esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir

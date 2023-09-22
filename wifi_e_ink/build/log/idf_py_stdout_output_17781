@@ -1,0 +1,89 @@
+[1/12] Performing build step for 'bootloader'
+[1/1] cd /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_e_ink/build/bootloader/esp-idf/esptool_py && /Users/hanyi02/.espressif/python_env/idf5.1_py3.9_env/bin/python /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_e_ink/build/bootloader/bootloader.bin
+Bootloader binary size 0x6790 bytes. 0x870 bytes (8%) free.
+[2/10] Building C object esp-idf/eink_graphic/CMakeFiles/__idf_eink_graphic.dir/eink_graphic.c.obj
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_e_ink/components/eink_graphic/eink_graphic.c: In function 'set_pixle':
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_e_ink/components/eink_graphic/eink_graphic.c:28:17: warning: unused variable 'real_color' [-Wunused-variable]
+   28 |         uint8_t real_color = color_trans(&(p->color), color_map);
+      |                 ^~~~~~~~~~
+/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_e_ink/components/eink_graphic/eink_graphic.c:31:9: warning: unused variable 'char_index' [-Wunused-variable]
+   31 |     int char_index = pixle_index / 2;
+      |         ^~~~~~~~~~
+[3/10] Linking C static library esp-idf/eink_graphic/libeink_graphic.a
+[4/10] Linking C static library esp-idf/main/libmain.a
+[5/10] Generating ld/sections.ld
+[6/10] Building C object CMakeFiles/wifi_e_ink.elf.dir/project_elf_src_esp32.c.obj
+[7/10] Linking CXX executable wifi_e_ink.elf
+[8/10] Generating binary image from built executable
+esptool.py v4.5.1
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_e_ink/build/wifi_e_ink.bin
+[9/10] cd /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_e_ink/build/esp-idf/esptool_py && /Users/hanyi02/.espressif/python_env/idf5.1_py3.9_env/bin/python /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_e_ink/build/partition_table/partition-table.bin /Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_e_ink/build/wifi_e_ink.bin
+wifi_e_ink.bin binary size 0xe4ef0 bytes. Smallest app partition is 0x200000 bytes. 0x11b110 bytes (55%) free.
+[9/10] cd /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esptool_py && /usr/local/Cellar/cmake/3.21.3_1/bin/cmake -D IDF_PATH=/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf -D "SERIAL_TOOL=/Users/hanyi02/.espressif/python_env/idf5.1_py3.9_env/bin/python;;/Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/Users/hanyi02/Documents/My_Project/MCU/esp/esp32_learn/wifi_e_ink/build -P /Users/hanyi02/Documents/My_Project/MCU/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool esp32 -p /dev/cu.wchusbserial14240 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader/bootloader.bin 0x10000 wifi_e_ink.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.5.1
+Serial port /dev/cu.wchusbserial14240
+Connecting.....
+Chip is ESP32-D0WD-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: c8:f0:9e:52:08:30
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x000f4fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26512 bytes to 16585...
+Writing at 0x00001000... (50 %)
+Writing at 0x00007682... (100 %)
+Wrote 26512 bytes (16585 compressed) at 0x00001000 in 0.9 seconds (effective 237.1 kbit/s)...
+Hash of data verified.
+Compressed 937712 bytes to 519683...
+Writing at 0x00010000... (3 %)
+Writing at 0x0001c51a... (6 %)
+Writing at 0x00027740... (9 %)
+Writing at 0x0002d911... (12 %)
+Writing at 0x00040405... (15 %)
+Writing at 0x00045be8... (18 %)
+Writing at 0x0004b9ac... (21 %)
+Writing at 0x0005148d... (25 %)
+Writing at 0x000571e8... (28 %)
+Writing at 0x0005caa7... (31 %)
+Writing at 0x00061d6d... (34 %)
+Writing at 0x00067437... (37 %)
+Writing at 0x0006c727... (40 %)
+Writing at 0x00071f81... (43 %)
+Writing at 0x00077587... (46 %)
+Writing at 0x0007cc78... (50 %)
+Writing at 0x00082c48... (53 %)
+Writing at 0x0008818a... (56 %)
+Writing at 0x0008dadf... (59 %)
+Writing at 0x000932ec... (62 %)
+Writing at 0x000989c7... (65 %)
+Writing at 0x0009e129... (68 %)
+Writing at 0x000a3bb0... (71 %)
+Writing at 0x000a9df5... (75 %)
+Writing at 0x000b0178... (78 %)
+Writing at 0x000b582e... (81 %)
+Writing at 0x000be1fb... (84 %)
+Writing at 0x000c67fb... (87 %)
+Writing at 0x000e05c5... (90 %)
+Writing at 0x000e5ebd... (93 %)
+Writing at 0x000eb8b5... (96 %)
+Writing at 0x000f0eff... (100 %)
+Wrote 937712 bytes (519683 compressed) at 0x00010000 in 13.0 seconds (effective 576.0 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 104...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (104 compressed) at 0x00008000 in 0.1 seconds (effective 255.8 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
